@@ -41,7 +41,7 @@ jobs:
           RENOVATE_REPOSITORY_CACHE: 'enabled'
           RENOVATE_TOKEN: ${{ vars.renovate_token }} #${{ github.token }}
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: Renovate log
           path: renovate-log.ndjson
