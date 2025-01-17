@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "browserify": "17.0.1",
-    "generate-license-file": "3.6.0",
+    "generate-license-file": "3.7.0",
     "jsdoc": "4.0.4",
     "less": "4.2.1",
     "less-plugin-clean-css": "1.6.0",
